@@ -103,8 +103,8 @@
         height:385px;
         width:890px;
         display:block;
-        margin-left:auto;
-        margin-right:auto;
+        margin-left:calc(50% - 445px);
+        margin-right:calc(50% - 445px);
     }
     section{
         font-family:Arial;
