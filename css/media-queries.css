@@ -71,4 +71,74 @@
 
 
 /*desktop*/
+@media screen and (min-width:500px) {
+    body{
+        font-family:arial;
+        margin:auto;
+        padding:10px;
+    }
+
+    .alert-info{
+        display: none;
+    }
+
+    h1 {
+        padding:5px;
+        width: 30%;
+        float: left;
+    }
+    ul {
+        padding:0;
+    }
+    li {
+        float: right;
+        display: inline-block;
+        list-style:none;
+        width: calc(100% -20px);
+        text-align:center;
+        margin:10px 0;
+        padding:20px;
+    }
+    img{
+        height:385px;
+        width:890px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    section{
+        font-family:Arial;
+
+    }
+    section.main{
+        float: left;
+        width: 60%;
+        height: 500px;
+        margin: 10px;
+    }
+    section.sub-section{
+        float: right;
+        width: 30%;
+        height: 500px;
+        margin: 10px;
+        font-style:Italic;
+
+    }
+    footer{
+        display:inline-block;
+        width:100%;
+    }
+    footer>p{
+        float:left;
+    }
+    footer>div{
+        float:right;
+    }
+    .social>img{
+        width:40px;
+        height:25px;
+        display:inline-block;
+    }
+}
+
 
